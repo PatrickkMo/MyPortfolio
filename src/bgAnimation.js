@@ -12,7 +12,7 @@ export default function BgAnimation({ fade }) {
   return (
 
     <div onAnimationEnd={() => setAnimationComplete(true)} className={`bgAnimation ${animationComplete && (!fade) ? "bgAnimation-fade-out" : ""}`}>
-      <div className="superclass">
+
         <div className="c_animations"></div>
         <div className="c_animations2"></div>
         <div className="c_animations3"></div>
@@ -26,7 +26,7 @@ export default function BgAnimation({ fade }) {
         <div className="c_animations11"></div>
         <div className="c_animations12"></div>
         <div className="c_animations13"></div>
-      </div> 
+
 
     </div>
   );

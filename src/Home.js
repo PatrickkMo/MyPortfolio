@@ -1,6 +1,6 @@
 
 import Firevid from './FireGIF/gif.mp4'
-import './App.css';
+import './Home.css';
 import React, { useState, useEffect, useCallback } from 'react';
 import myAudio from "./music1.mp3";
 import button from "./button-1.png";
@@ -65,9 +65,11 @@ function Home() {
   
       <body>
 
-              <header className=""></header>
-              <div className="frame">
-      
+        
+              <div className ="frame">
+
+    
+
               {showBgAnimation && <BgAnimation className="bgAnimation" fade ={isButtonProjectsHovered}/>}
 
               {showBgAnimation2 && <BgAnimation2 className="bgAnimation2" fade ={isButtonProjectsHovered2}/>}
