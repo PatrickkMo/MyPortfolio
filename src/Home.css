@@ -11,6 +11,7 @@
   overflow: hidden;
   width: 100vw;
   height: 100vh;
+  z-index: 2;
   
 }
 
@@ -19,6 +20,7 @@
   overflow: hidden;
   width: 100vw;
   height: 100vh;
+  z-index: 3;
 }
 
 
@@ -44,21 +46,27 @@
   height: 100vh;
 } 
 
-
-
-
+.home{
+  width:100%;
+  height:100%;
+}
 
 
 .frame {
-
-  width:100%;
-  height:100%;
-
-  position:fixed;
-
-
-  z-index:2;
- 
+  
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  margin: auto;
+  top:50%;
+  width: 100%;
+  min-width: 1080px;
+  min-height: 1080px;
+  position: fixed;
+  z-index: 2;
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
 }
 
 
@@ -161,7 +169,7 @@ audio {
 
   display:grid;
 
-  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-columns: 33.33333333333% 33.33333333333% 33.33333333333%;
   grid-template-rows:100%;
 
 
@@ -191,6 +199,21 @@ audio {
 
 .menu-button1:hover .init{
   display:none;
+}
+
+#button-achievements {
+  grid-area: 1/1/1/1;
+
+}
+
+#button-projects {
+  grid-area: 1/2/1/2;
+
+}
+
+#button-about-me {
+  grid-area: 1/3/1/3;
+
 }
 
 .art-grid{
