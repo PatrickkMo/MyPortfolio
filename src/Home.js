@@ -68,7 +68,8 @@ function Home() {
         
               <div className ="frame">
 
-    
+              <BgAnimation2 fade = {false}/>
+              <BgAnimation fade = {false}/>
 
               {showBgAnimation && <BgAnimation className="bgAnimation" fade ={isButtonProjectsHovered}/>}
 
