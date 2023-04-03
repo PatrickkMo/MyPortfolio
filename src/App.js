@@ -11,7 +11,7 @@ class App extends React.Component {
     return (
 
         <div>
-          <HashRouter basename = "/MyPortfolio">
+          <HashRouter basename = {process.env.PUBLIC_URL}>
             <Routes>
               <Route exact path="/" element={<Home />} />
               <Route exact path="/Portfolio" element={<ProjectsPage />} />
