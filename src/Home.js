@@ -23,6 +23,11 @@ function Home() {
   const [isButtonProjectsHovered, setIsButtonProjectsHovered] = useState(false);
   const [showBgAnimation, setShowBgAnimation] = useState(false);
 
+  const [isFadingOut, setIsFadingOut] = useState(false);
+  const [isButtonClicked, setIsButtonClicked] = useState(false);
+
+
+
   const [isButtonProjectsHovered2, setIsButtonProjectsHovered2] = useState(false);
   const [showBgAnimation2, setShowBgAnimation2] = useState(false);
 
@@ -64,7 +69,7 @@ function Home() {
     <div className="Home">
   
       <body>
-
+              
         
               <div className ="frame">
 
@@ -104,13 +109,16 @@ function Home() {
 
               <div className="test-block">
 
-                <Link to="/Projects">
+                <Link to="/Portfolio" className = "LinkTab">
                 <button
                   className="menu-button1"
                   background="none/"
                   id="button-achievements"
 
-                
+                  onClick={() => {
+                    setIsFadingOut(true);
+                    setIsButtonClicked(true);
+                  }}
 
                   onMouseEnter={() => {
 
@@ -165,7 +173,7 @@ function Home() {
 
 
 
-
+                <Link to="/Education" className = "LinkTab">
                 <button
                   className="menu-button1"
                   background="none/"
@@ -209,11 +217,12 @@ function Home() {
                   <img className="clicked" src={button_clicked} width="50px" height="50px">
                   </img>
                 </button>
+                </Link>
 
 
 
 
-
+                <Link className = "LinkTab" to="/Hobbies">
                 <button
                   className="menu-button1"
                   background="none/"
@@ -256,6 +265,7 @@ function Home() {
                   <img className="clicked" src={button_clicked} width="50px" height="50px">
                   </img>
                 </button>
+                </Link>
 
 
 
@@ -264,7 +274,7 @@ function Home() {
 
               <div className="art-grid">
                 <h1 className={`fade-in-out ${isVisible ? '' : 'hide'}`} id="title_text1" >Patrick Mo</h1>
-                <h1 className={`fade-in-out ${isVisible2 ? '' : 'hide'}`} id="title_text2" >Projects</h1>
+                <h1 className={`fade-in-out ${isVisible2 ? '' : 'hide'}`} id="title_text2" >Portfolio</h1>
                 <h1 className={`fade-in-out ${isVisible3 ? '' : 'hide'}`} id="title_text3" >Education</h1>
                 <h1 className={`fade-in-out ${isVisible4 ? '' : 'hide'}`} id="title_text4" >About Me</h1>
               </div>

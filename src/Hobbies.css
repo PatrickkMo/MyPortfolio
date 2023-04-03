@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Josefin+Sans:wght@500&family=Open+Sans:wght@600&family=Roboto:wght@700&display=swap');
+body {
+    height: 100vh;
+    font-family: 'Anonymous Pro', monospace;  
+
+}
+
+
+.Intro-Screen3 {
+   
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    font-family: 'Anonymous Pro', monospace;  
+    background-color: rgb(213, 240, 255);
+    opacity: 1;
+    animation-name: fadeOut;
+    animation-duration: 4s;
+    animation-delay: 10s; 
+    animation-fill-mode: forwards;
+}
+
+.Intro-Screen1.fade-out {
+    font-family: 'Anonymous Pro', monospace;  
+    opacity: 0;
+    z-index:-1;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  
+
+
+
+
+    
+
+.Globe_Container {
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    background-image: url("./Background_Projects.png");
+    background-size: 100% 100%; 
+    opacity:1;
+    z-index:0;
+}
+
+
+.Typer > .Typewriter {
+    font-size:200px;
+    position:fixed;
+    z-index:1;
+    top:50%;
+    left:6%;  
+    width:80vw;
+    line-height: 1em;
+    color:rgb(255, 252, 160);
+
+    text-transform: uppercase;
+    font-family: 'Anonymous Pro', monospace;  
+    /* font-family: 'Roboto', sans-serif; */
+    
+    
+    letter-spacing: 3px;
+    transition: 700ms ease;
+    font-weight: 500;
+    /* filter: drop-shadow(0 0 0.1rem rgb(0, 6, 2)); */
+    font-variation-settings: "wght" 111;
+    animation:textBlock 700ms ease;
+
+
+     
+}
+
+.Intro-Screen3 h1 {
+    font-family: 'Anonymous Pro', monospace;  
+    margin-top:25%;
+    color: #000000;
+    
+    text-align: center;
+    
+    letter-spacing: 3px;
+    transition: 700ms ease;
+    font-weight: 700;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+  
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+
+
+
+.Intro-Screen3{
+    width:100vw;
+    height:100vh;
+
+    font-family: 'Anonymous Pro', monospace;  
+    background-color: rgb(255, 255, 255);  
+    
+
+}
+
+
+
+.Projects-ContainerH {
+
+    filter: drop-shadow(0 0 0.75rem rgb(29, 28, 28));
+    position:absolute;
+    z-index:5;
+    top:100vh;
+    width:100vw;
+    height:6000px;
+    background-color: rgb(234, 237, 245);
+    
+}
+
+.My-Collage {
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:6%;
+    margin-bottom:1%;
+    
+    position:relative;
+    top:50px;
+    font-size:450%;
+    text-align: center;
+    z-index:6;
+    height:4%;
+}
+
+.image-holder {
+    margin-top:150px;
+    margin-bottom:150px;
+    text-align:center;
+    filter: drop-shadow(0 0 0.75rem rgb(16, 12, 13));
+
+    
+    transition: transform 0.3s ease-out;
+}
+
+.image-holder:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 0.85rem rgb(16, 12, 13));
+
+}
+
+.imagec {
+    box-shadow: 0 0 0 8px white;
+}
