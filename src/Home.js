@@ -73,8 +73,7 @@ function Home() {
         
               <div className ="frame">
 
-              <BgAnimation2 fade = {false}/>
-              <BgAnimation fade = {false}/>
+          
 
               {showBgAnimation && <BgAnimation className="bgAnimation" fade ={isButtonProjectsHovered}/>}
 
@@ -109,7 +108,7 @@ function Home() {
 
               <div className="test-block">
 
-                <Link to="/Portfolio" className = "LinkTab">
+                <Link to="/MyPortfolio/Portfolio" className = "LinkTab">
                 <button
                   className="menu-button1"
                   background="none/"
@@ -173,7 +172,7 @@ function Home() {
 
 
 
-                <Link to="/Education" className = "LinkTab">
+                <Link to="/MyPortfolio/Education" className = "LinkTab">
                 <button
                   className="menu-button1"
                   background="none/"
@@ -222,7 +221,7 @@ function Home() {
 
 
 
-                <Link className = "LinkTab" to="/Hobbies">
+                <Link className = "LinkTab" to="/MyPortfolio/Hobbies">
                 <button
                   className="menu-button1"
                   background="none/"

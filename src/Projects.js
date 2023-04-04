@@ -213,7 +213,7 @@ function ProjectsPage() {
                     <div className = "ProjectsTitle"><h1 className = "T-Words">Aileng Food Industries</h1></div>
                     <div className = "Projects-Role"><h2 className = "R-Words">Senior Web Developer / Designer</h2></div>
                     <div className = "Projects-Paragraph"><p className ="P-Words">My time at Aileng Food Industries was an insightful experience as it was my
-                    first coperate position as a developer. I was tasked with handling my client's expectations for the site and it's design as well as development and deployment and I fulfilled it
+                    first coperate position as a developer. I was tasked with handling my client's expectations for the site and its design as well as development and deployment and I fulfilled it
                     with satisfactory standards.</p></div>
                     <a className="aileng-site" href="https://ailengfood.co" target="_blank">Check out the website!</a>
                 
@@ -248,7 +248,7 @@ function ProjectsPage() {
                     <div className = "Projects-Role"><h2 className = "L-R-Words">Instructor / Trainer</h2></div>
                     <div className = "Projects-Paragraph"><p className ="L-P-Words">During my time at The Logic Coders, I pursued my passion towards teaching while also aligning it with my interest in programming
                     by registering to teach at a coding tuition center known as "The Logic Coders". As an instructor, I have worked with students of all ages who I personally curated and taylored each of my classes to.
-                    My time at The Logic Coders was definitely fruitful having gathered the people skills required to work in a team environment as well as the abillity to adequately relay information.</p></div>
+                    My time at The Logic Coders was definitely fruitful having gathered the people skills required to work in a team environment as well as the ability to adequately relay information.</p></div>
                 </div>
 
 
