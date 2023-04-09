@@ -201,7 +201,7 @@ function EducationPage() {
                 <div className = "Texts">
                     <div className = "ProjectsTitle"><h1 className = "T-Words">Zhenghua Secondary School</h1></div>
                     <div className = "Projects-Role"><h2 className = "R-Words">2014 - 2018</h2></div>
-                    <div className = "Projects-Paragraph"><p className ="P-Words">Zhenghua Secondary School was a place of growth where I spent most of my teengae years studying. It is the education institution where I assumed my first major leadership position as chairperson of the Infocomm club for three years and carried out my duties subserviently.</p></div>
+                    <div className = "Projects-Paragraph"><p className ="P-Words">Zhenghua Secondary School was a place of growth where I spent most of my teenage years studying. It is the education institution where I assumed my first major leadership position as chairperson of the Infocomm club for three years and carried out my duties subserviently.</p></div>
                    
                 
                 </div>
@@ -216,7 +216,7 @@ function EducationPage() {
                 <div className = "Texts">
                     <div className = "ProjectsTitle"><h1 className = "J-T-Words">Jurong Pioneer Junior College</h1></div>
                     <div className = "Projects-Role"><h2 className = "J-R-Words">2019 - 2020</h2></div>
-                    <div className = "Projects-Paragraph"><p className ="J-P-Words">I would say JPJC was the breeding ground of my passion towards programming having taken the H2 Computing A-Levels syllabus. My passion towards the intricacy of programing was facillitated by the resources that the school provided as well as that I could obtain myself from the internet. Upon graudating with a Computing O-Level cert, I was more than driven to persue a career in Computer Science. </p></div>
+                    <div className = "Projects-Paragraph"><p className ="J-P-Words">I would say JPJC was the breeding ground of my passion towards programming having taken the H2 Computing A-Levels syllabus. My passion towards the intricacy of programming was facillitated by the resources that the school provided as well as that I could obtain myself from the internet. Upon graduating with a Computing O-Level cert, I was more than driven to pursue a career in Computer Science. </p></div>
 
               </div>
 
@@ -230,7 +230,7 @@ function EducationPage() {
                 <div className = "Texts">
                     <div className = "ProjectsTitle"><h1 className = "S-T-Words">Singapore University of Technology and Design</h1></div>
                     <div className = "Projects-Role"><h2 className = "S-R-Words">2021 - PRESENT</h2></div>
-                    <div className = "Projects-Paragraph"><p className ="S-P-Words">SUTD was the my university of choice and my duration as a student there is what I would describe as the reinassance period in terms of my prospects towards my career in Computer Science having been presented with numerous opportunities and networks to hone my craft in. My college days have been coupled with fun as well as hard work and not one day passes where I feel I am one step closer to my aspirations.</p></div>
+                    <div className = "Projects-Paragraph"><p className ="S-P-Words">SUTD was my university of choice and my duration as a student there is what I would describe as the reinassance period in terms of my prospects towards my career in Computer Science having been presented with numerous opportunities and networks to hone my craft in. My college days have been coupled with fun as well as hard work and not one day passes where I feel I am one step closer to my aspirations.</p></div>
                 </div>
 
 

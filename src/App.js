@@ -13,10 +13,10 @@ class App extends React.Component {
       <Router>
         <div>
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/Portfolio" element={<ProjectsPage />} />
-            <Route path="/Education" element={<EducationPage />} />
-            <Route path="/Hobbies" element={<HobbiesPage />} />
+            <Route exact path="/MyPortfolio" element={<Home />} />
+            <Route exact path="/MyPortfolio/Portfolio" element={<ProjectsPage />} />
+            <Route path="/MyPortfolio/Education" element={<EducationPage />} />
+            <Route path="/MyPortfolio/Hobbies" element={<HobbiesPage />} />
           </Routes>
         </div>
       </Router>
