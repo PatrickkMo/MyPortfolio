@@ -213,7 +213,7 @@ function ProjectsPage() {
                     <div className = "ProjectsTitle"><h1 className = "T-Words">Aileng Food Industries</h1></div>
                     <div className = "Projects-Role"><h2 className = "R-Words">Senior Web Developer / Designer</h2></div>
                     <div className = "Projects-Paragraph"><p className ="P-Words">My time at Aileng Food Industries was an insightful experience as it was my
-                    first coperate position as a developer. I was tasked with handling my client's expectations for the site and its design as well as development and deployment and I fulfilled it
+                    first corporate position as a developer. I was tasked with handling my client's expectations for the site and its design as well as development and deployment and I fulfilled it
                     with satisfactory standards.</p></div>
                     <a className="aileng-site" href="https://ailengfood.co" target="_blank">Check out the website!</a>
                 
